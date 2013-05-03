@@ -1,0 +1,51 @@
+/*GENERALIDADES FOOTER*/
+#footer  li {
+  margin-bottom: 2px;
+}
+.info-site p{
+margin: 3px 0;
+color: rgba(254,221,100,1);
+font-size: 12px;
+}
+#footer {
+    background: url("../images/bottom-back.png") no-repeat center 0 transparent;
+    padding-top: 100px;
+}
+/*FOOTER MENU*/
+#zone-footer  ul{
+  list-style: none outside none;
+  margin: 0;
+  padding: 0;
+}
+#block-menu-footer .content > ul >  li{
+padding-right: 30px;
+float: left;
+border-right: 1px solid #F5E002;
+margin-right: 30px;
+}
+#zone-footer .content > ul >  li > span a{
+color: #EECF03;
+display: block;
+margin-right: 16px;
+  height: 70px;
+display: table-cell;
+vertical-align: middle;
+
+}
+#zone-footer .content > ul >  li > span {
+float: left;
+margin-right: 15px;
+}
+#zone-footer .content > ul >  li.expanded > ul {
+float: left;
+}
+#zone-footer ul.menu li a:hover {
+  color: #D0C7B5;
+}
+#zone-footer .content > ul >  li li > a{
+  color: #FFF;
+}
+
+#footer .section-inner {
+  padding: 25px 20px;
+}
